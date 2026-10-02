@@ -1,0 +1,27 @@
+REACT: 
+
+State - variavel que é atualizável atrave´s de uma interação da página:
+/*
+
+import { useState } from "react";
+
+function App() {
+	const [message, setMessage] = useState("Hello, World!");
+	
+	return (
+    <div className="App">
+      <h1>{message}</h1>
+      <button
+        onClick={() => {
+          setMessage("Hello, React!");
+        }}
+      >
+        Change message
+      </button>
+    </div>
+  );
+	
+}
+
+export default App;
+*/
